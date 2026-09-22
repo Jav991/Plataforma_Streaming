@@ -1,0 +1,9 @@
+# Ignorar carpetas de compilación
+bin/
+obj/
+
+# Archivos de entorno y configuración local
+.vscode/
+.vs/
+*.user
+*.suo
