@@ -1,4 +1,4 @@
-namespace  Contenido{
+namespace  Plataforma_Streaming.Entidades{
     public abstract class Contenido
     {
         public string titulo { get; set; }
