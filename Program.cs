@@ -11,6 +11,9 @@ namespace Plataforma_Streaming
 
             Podcast p = new Podcast("Aprendiendo C#", 45, 0, "Programación", "Juan", 12);
             p.mostrarPodcast();
+
+            Audiolibro audiolibro = new Audiolibro("El misterio de la ciudad", 50, 120, "Ana lopez", "pedro martin");
+            audiolibro.Reproducir();
         }
     }
 }
