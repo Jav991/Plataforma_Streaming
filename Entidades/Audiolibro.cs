@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Plataforma_Streaming.Interfaces;
 
 namespace Plataforma_Streaming.Entidades
 {
