@@ -14,6 +14,17 @@ namespace Plataforma_Streaming
 
             Audiolibro audiolibro = new Audiolibro("El misterio de la ciudad", 50, 120, "Ana lopez", "pedro martin");
             audiolibro.Reproducir();
+
+            Audiolibro a = new Audiolibro("El Sistema de la Ciudad", 50, 120, "Ana Lopez", "Pedro Martín");
+            a.Reproducir();
+
+            cancion.descargar();
+            cancion.eliminarDescarga();
+
+            audiolibro.descargar();
+            audiolibro.eliminarDescarga();
+
+
         }
     }
 }
