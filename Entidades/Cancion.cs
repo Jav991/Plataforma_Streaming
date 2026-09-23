@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
+using Plataforma_Streaming.Interfaces;
 
 /*
  * 
