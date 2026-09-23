@@ -45,7 +45,7 @@ namespace Plataforma_Streaming.Entidades
            Console.WriteLine(
                $"Reproduciendo: {this.titulo}\n" +
                $"Artista: {this.Artista}\n" +
-               $"Reproducciones: {this.reproducciones}");
+               $"Reproducciones: {this.reproducciones} \n");
         }
         public override void Reproducir()
         {
