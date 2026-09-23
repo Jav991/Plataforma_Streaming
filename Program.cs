@@ -11,6 +11,9 @@ namespace Plataforma_Streaming
 
             Podcast p = new Podcast("Aprendiendo C#", 45, 0, "Programación", "Juan", 12);
             p.mostrarPodcast();
+
+            Audiolibro a = new Audiolibro("El Sistema de la Ciudad", 50, 120, "Ana Lopez", "Pedro Martín");
+            a.Reproducir();
         }
     }
 }
